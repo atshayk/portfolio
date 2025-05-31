@@ -24,6 +24,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
     background-color: rgb(18,24,39);
 }
 nav ul {
@@ -41,11 +42,13 @@ nav ul li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul li a:hover {
-    color: white;
+    color: orangered;
 }
 nav ul li a.active {
     color: white;
 }
+
+/* footer */
 footer {
     text-align: center;
     color: lightskyblue;
@@ -55,19 +58,25 @@ footer {
     width: 100%;
     background-color: rgb(18,24,39);
 }
+
 footer p {
     margin: 10px 0;
 }
+
 footer a {
     color: lightskyblue;
     text-decoration: none;
 }
+
 footer a:hover {
-    color: white;
+    color: orangered
 }
+
 footer a.active {
     color: white;
 }
+
+
 main {
     padding: 20px;
     color: lightskyblue;
@@ -100,7 +109,7 @@ section ul li a {
     text-decoration: none;
 }
 section ul li a:hover {
-    color: white;
+    color: orangered;
 }
 section ul li a.active {
     color: white;
