@@ -1,3 +1,5 @@
+/* for index.html */
+
 * {
   margin: 0;
   padding: 0;
@@ -69,7 +71,7 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
+footer:hover {
     color: orangered
 }
 
