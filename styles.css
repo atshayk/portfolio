@@ -131,12 +131,18 @@ section img {
     height: auto;
     border-radius: 8px;
 }
-section .button {
-    display: inline-block;
-    padding: 10px 20px;
+
+button {
     background-color: lightskyblue;
     color: rgb(18,24,39);
-    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
     border-radius: 5px;
+    cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+    background-color: orangered;
+    color: white;
 }
