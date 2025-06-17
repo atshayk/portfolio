@@ -63,7 +63,7 @@ footer {
     text-align: center;
     color: lightskyblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     background-color: rgb(18,24,39);
@@ -329,19 +329,9 @@ a {
   position: relative;
 }
 
-.timeline-item .dot {
-  position: absolute;
-  left: -10px;
-  top: 5px;
-  height: 12px;
-  width: 12px;
-  background-color: lightskyblue;
-  border-radius: 50%;
-}
-
 .timeline-content h3 {
   margin: 0;
-  color: orangered;
+  color: lightskyblue;
 }
 
 .timeline-content p {
@@ -351,12 +341,15 @@ a {
 /* CTA Section */
 #cta {
   text-align: center;
-  margin-top: 60px;
+  margin: 60px auto; /* center horizontally with margin */
   padding: 30px;
   background-color: rgb(18, 24, 39);
   border: 1px solid lightskyblue;
   border-radius: 10px;
+  width: fit-content; /* wrap content */
+  max-width: 90%;      /* prevent it from overflowing on small screens */
 }
+
 
 #cta h2 {
   color: lightskyblue;
