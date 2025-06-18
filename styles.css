@@ -410,6 +410,8 @@ a {
 
 .about-text {
   flex: 1 1 300px;
+  margin-bottom: 1.2em;
+  line-height: 1.5;
   color: lightgray;
 }
 
