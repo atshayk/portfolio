@@ -79,7 +79,7 @@ footer a {
 }
 
 footer:hover {
-    color: orangered
+    color: orangered;
 }
 
 footer a.active {
