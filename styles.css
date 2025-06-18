@@ -16,6 +16,7 @@ header {
     text-align:center;
 }
 
+
 /* nav bar */
 nav {
   position: sticky;
@@ -308,6 +309,10 @@ a {
 #spotlight ul {
     color: lightgray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 1 1 300px;
+    margin-bottom: 1.2em;
+    line-height: 1.5;
+    color: lightgray;
 
 }
 
