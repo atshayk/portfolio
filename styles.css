@@ -442,6 +442,15 @@ a {
   margin-bottom: 10px;
 }
 
+.about-section a {
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  color: orangered;
+}
+
 /* for projects.html */
 
 .projects-intro {
@@ -539,3 +548,5 @@ a {
 .gap {
   margin: 20px;
 }
+
+/* for contact.html */
