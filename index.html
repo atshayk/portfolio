@@ -1,27 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
     <head> 
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Anis Timur Shayk's portfolio showcasing skills, projects, and journey as a fullstack developer.">
+        <meta name="keywords" content="Anis Timur Shayk, Fullstack Developer, Portfolio, Projects, Skills, Web Development, Software Engineer">
+        <meta name="author" content="Anis Timur Shayk">
         <title>atshayk | Portfolio</title>
         <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/97cadbde70.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header></header>
-        <nav>
-            <ul>
-                <li><a href="#home"><i class='fas fa-home'></i> Home</a></li>
-                <li><a href="#about"><i class='fas fa-smile'></i> About Me?</a></li>
-                <li><a href="#projects"><i class='fas fa-tools'></i> My Projects</a></li>
-                <li><a href="#blog"><i class='fas fa-newspaper'></i> Blog</a></li>
-                <li><a href="#contact"><i class='fas fa-mug-hot'></i> Contact Me</a></li>
-            </ul>
-        </nav>
-        <main>
-            <section id="home">
-                <h1>Hi! I'm Anis. Welcome to my portfolio website!</h1>
-            </section>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class='fas fa-home'></i> Home</a></li>
+                    <li><a href="about.html"><i class='fas fa-smile'></i> About Me?</a></li>
+                    <li><a href="projects.html"><i class='fas fa-tools'></i> My Projects</a></li>
+                    <li><a href="blog.html"><i class='fas fa-newspaper'></i> Blog</a></li>
+                    <li><a href="contact.html"><i class='fas fa-mug-hot'></i> Contact Me</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h2> Welcome! Here's my business card. </h2>
+                <section id="card">
+                    <div class="card-wrapper">
+                    <div class="card" onclick="this.classList.toggle('flipped')">
+                        <div class="card-face card-front">
+                        <h1>Anis Timur Shayk</h1>
+                        <p>Fullstack Developer </p>
+                        <div class="card-icons">
+                            <a href="mailto:anistimurshayk@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a href="https://github.com/atshayk" target="_blank"><i class="fab fa-github-alt"></i></a>
+                            <a href="https://linkedin.com/in/atshayk" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        </div>
+                        <div class="card-face card-back">
+                        <p>I work with webdev, cysec & data.</p>
+                        <p>Tinkering with indie game dev and art.</p>
+                        <div class="card-links">
+                            <a href="projects.html"><i class='fas fa-tools'></i> View my Projects</a>
+                            <a href="blog.html"><i class='fas fa-newspaper'></i> Read my Blog</a>
+                            <a href="contact.html"><i class='fas fa-mug-hot'></i> Contact Me</a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                <section id="skills">
+                <h2>Skills & Tools</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fab fa-html5"></i> HTML</div>
+                    <div class="skill-card"><i class="fa-brands fa-css3"></i></i> CSS</div>
+                    <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill-card"><i class="fab fa-react"></i> React</div>
+                    <div class="skill-card"><i class="fab fa-node-js"></i> Node.js</div>
+                    <div class="skill-card"><i class="fa-brands fa-git-alt"></i> Git</div>
+                    <div class="skill-card"><i class="fas fa-database"></i> MongoDB</div>
+                    <div class="skill-card"><i class="fab fa-github"></i> GitHub</div>
+                    <div class="skill-card"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-card"><i class="fab fa-java"></i> Java</div>
+                    <div class="skill-card"><i class="fab fa-android"></i> Kotlin</div>
+                    <div class="skill-card"><i class="fa-brands fa-dart-lang"></i> Dart</div>
+                    <div class="skill-card"><i class="fa-brands fa-golang"></i> Golang </div>
+                    <div class="skill-card"><i class="fa-brands fa-rust"></i> Rust</div>
+                    <div class="skill-card"><i class="fa-solid fa-code"></i> C</div>
+                    <div class="skill-card"><i class="fa-solid fa-square-plus"></i> C++</div>
+                    <div class="skill-card"><i class="fa-solid fa-hashtag"></i> C#</div>
+                    <div class="skill-card"><i class="fa-solid fa-cube"></i> Bash/Zsh</div>
+                    <div class="skill-card"><i class="fab fa-linux"></i> Linux</div>
+                    <div class="skill-card"><i class="fas fa-gamepad"></i> Godot</div>
+                    <div class="skill-card"><i class="fa-brands fa-figma"></i> Figma</div>
+                    <div class="skill-card"><i class="fa-brands fa-docker"></i> Docker</div>
+                    <div class="skill-card"><i class="fa-solid fa-table"></i> MySQL</div>
+                    <div class="skill-card"><i class="fa-solid fa-diagram-project"></i> StarUML</div>
+                </div>
+                </section>
+
+                <section id="spotlight" class="about-section">
+                <h2>Project Spotlight</h2>
+                <p>Currently leading a 90-day mission to digitize a rural school. Working on building lightweight tools for teachers and students, including:</p>
+                <ul>
+                    <li>Attendance and lesson tracking system</li>
+                    <li>Offline-first PWA for low-connectivity areas</li>
+                    <li>Interactive learning modules using web tech</li>
+                </ul>
+                </section>
+
+                <section id="timeline">
+                <h2>My Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2019</h3>
+                        <p>Started exploring <i class="fab fa-python"></i>Python and <i class="fa-solid fa-database"></i>SQL, laying the groundwork with computer science fundamentals.</p>
+                    </div>
+                    </div>
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2020</h3>
+                        <p>Dove into APIs and data analytics with NumPy/Pandas. </p>
+                        <p>Built a <i class="fa-brands fa-discord"></i>Discord bot and gained hands-on exposure to DevOps practices.</p>
+                        <p> Oh, and uhh... <i class="fa-solid fa-virus-covid"></i> COVID-19 happened.</p>
+                    </div>
+                    </div>
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2021</h3>
+                        <p>Enrolled full-time in a <i class="fa-solid fa-laptop-code"></i>Computer Science degree program, committed to becoming a software engineer.</p>
+                    </div>
+                    </div>
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2022</h3>
+                        <p>Focused deeply on my second year of Computer Science, learning DSA and core subjects.</p>
+                    </div>
+                    </div>
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2023</h3>
+                        <p>Served as Vice President of my college debate society, organizing and leading discussions.</p>
+                        <p><i class="fa-solid fa-trophy"></i> Won the Smart India Hackathon (Software Category) — developed an <i class="fab fa-android"></i>Android app with my team in just 16 hours.</p>
+                    </div>
+                    </div>
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2024</h3>
+                        <p> Learned to value <b>consistency</b> over <b>intensity</b> while staying in touch with tech and creative work.</p>
+                    </div>
+                    </div>
+                    <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>2025</h3>
+                        <p>Graduating with a mission to create social impact through tech.</p>
+                        <p>Sharpening my full-stack skills and ready for a fresh start.</p>
+                    </div>
+                    </div>
+                </div>
+                </section>
+
+                <section id="cta">
+                <h2>Let's Build Something Cool</h2>
+                <p>If you've got an idea, project, or just want to vibe, hit me up.</p>
+                <a class="cta-button" href="contact.html">Contact Me</a>
+                </section>
+            </main>
+    </body>
         <footer>
-            <p>© 2025 Anis Timur Shayk. All rights reserved. </p>
+            <p><i class="fa-solid fa-copyright"></i>2025 Anis Timur Shayk. All rights reserved. </p>
         </footer>
     </body>
 </html>

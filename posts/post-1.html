@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Day I Broke Production</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <script src="https://kit.fontawesome.com/97cadbde70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="../about.html"><i class="fas fa-smile"></i> About Me</a></li>
+            <li><a href="../projects.html"><i class="fas fa-tools"></i> My Projects</a></li>
+            <li><a href="../blog.html"><i class="fas fa-newspaper"></i> Blog</a></li>
+            <li><a href="../contact.html"><i class="fas fa-mug-hot"></i> Contact Me</a></li>
+        </ul>
+    </nav>
+
+
+  <main>
+    <article class="about-section">
+      <h1>The Day I Broke Production</h1>
+      <p class="meta">By Anis Timur Shayk | <time datetime="2024-09-01">September 1, 2024</time></p>
+
+      <img src="https://images.unsplash.com/photo-1590608897129-79da97dc72c6" alt="Broken computer" style="width:100%; border-radius: 8px; margin: 20px 0;" />
+
+      <p>It all started with a tiny change. Just one line of code. But it turned into a very long night.</p>
+        <section class="gap"></section>
+      <h3>Act 1: The Commit</h3>
+      <p>I was working on a simple feature — add a new field to the user profile. I made the change, pushed it to production... and suddenly, our user dashboard wasn't loading. Oops.</p>
+        <p>My first thought? "This can't be happening." But it was. I had just broken production.</p>
+        <section class="gap"></section>
+      <h3>Act 2: Chaos Ensues</h3>
+      <p>Logs started filling up with errors. Slack blew up. The team was pinging me. I scrambled to roll back the change, but I'd already nuked half the cache. My heart rate? 180 bpm.</p>
+
+        <ul>
+            <li>I learned how to triage a live incident.</li>
+            <li>I learned to test even the smallest changes properly.</li>
+            <li>And I learned our backup system actually works (thank god).</li>
+        </ul>
+      <section class="gap"></section>
+      <h3>Act 3: The Fix</h3>
+      <p>We spent the next few hours restoring service, adding tests, and writing a postmortem. It was a mess — but one of the most educational messes I've been in.</p>
+
+      <blockquote>“Mistakes are proof you're trying.”</blockquote>
+      <section class="gap"></section>
+      <p>In the end, everything was fine. We shipped the fix, updated our deploy process, and I got some sleep. But I'll never forget what it felt like to break production — and bounce back.</p>
+
+    <section>
+      <h3>Comments</h3>
+        <p><strong>Jane:</strong> Oof, been there. Thanks for the honesty!</p>
+        <p><strong>DevKid42:</strong> Love the storytelling style here😂</p>
+        <p><strong>Ali:</strong> At least your rollback worked. Mine didn't😭</p>
+    </section>
+    </article>
+  </main>
+
+  <footer>
+    <p><i class="fa-solid fa-copyright"></i>2025 Anis Timur Shayk. All rights reserved.</p>
+  </footer>
+</body>
+</html>
