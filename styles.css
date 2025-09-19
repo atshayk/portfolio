@@ -29,8 +29,8 @@ nav {
   padding: 20px 40px;
   margin: 20px auto; /* adds top spacing and centers */
   background-color: rgb(18, 24, 39);
-  border: 1px solid lightskyblue; /* 👈 Adds the box */
-  border-radius: 12px;            /* 👈 Rounded corners */
+  border: 2px solid lightskyblue; /* 👈 Adds the box */
+  border-radius: 14px;            /* 👈 Rounded corners */
   width: fit-content;             /* box wraps nav items */
 }
 
@@ -486,6 +486,9 @@ a {
   color: lightskyblue;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.3s;
+  max-width: 320px;
+  min-height: 200px;
+  margin: 0 auto;
 }
 
 .project-card:hover {
